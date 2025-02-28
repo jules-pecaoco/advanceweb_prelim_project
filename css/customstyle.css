@@ -5,10 +5,10 @@
   --background: #ffffff;
 
   /* assets */
-  --banner-1-image: url("/images/img-r-1.png");
-  --banner-2-image: url("/images/img-r-2.png");
-  --banner-3-image: url("/images/img-r-3.png");
-  --banner-4-image: url("/images/img-r-4.png");
+  --banner-1-image: url("../images/img-r-1.png");
+  --banner-2-image: url("../images/img-r-2.png");
+  --banner-3-image: url("../images/img-r-3.png");
+  --banner-4-image: url("../images/img-r-4.png");
 }
 
 /* custome styles */
