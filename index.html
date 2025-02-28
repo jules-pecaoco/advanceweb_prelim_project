@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Troolife</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Boostrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="css/customstyle.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-xl navbar-light bg-primary d-flex justify-content-center align-items-center">
+    <div class="container-fluid">
+      <button class="navbar-toggler border-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fa fa-bars text-white"></i>
+      </button>
+      <a href="#">
+        <img src="/images/logo-1.png" alt="Troolife" width="80px" class="me-4" />
+      </a>
+      <a class="navbar-brand position-relative d-xl-none" href="#">
+        <i class="fa fa-shopping-cart text-white text-lg"></i>
+        <sup class="bg-secondary border-circle text-primary text-xs px-1">0</sup>
+      </a>
+      <div class="dropdown d-xl-none">
+        <button class="btn btn-secondary dropdown-toggle bg-primary border-none" type="button" id="dropdownMenuButton1"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa fa-globe text-secondary me-2"></i>
+          English
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">Filipino</a></li>
+          <li><a class="dropdown-item" href="#">Korean</a></li>
+          <li><a class="dropdown-item" href="#">Japanese</a></li>
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active manrope-medium text-white" aria-current="page" href="#">Mission</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link manrope-medium text-white" aria-current="page" href="#">LifeLine</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link manrope-medium text-white" aria-current="page" href="#">Nutrition</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link manrope-medium text-white" aria-current="page" href="#">Free by Referral</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link manrope-medium text-white" aria-current="page" href="#">Public Relations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link manrope-medium text-white" aria-current="page" href="#">Company</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link manrope-medium text-white" aria-current="page" href="#">Management</a>
+          </li>
+          <li class="nav-item d-none d-xl-block">
+            <a class="nav-link manrope-medium text-white" href="#">
+              <i class="fa fa-shopping-cart text-white text-lg"></i>
+              <sup class="bg-secondary border-circle text-primary text-xs px-1">0</sup>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link manrope-medium text-white" href="#">
+              <i class="fa fa-user text-secondary text-lg me-2"></i>
+              My Office</>
+            </a>
+          </li>
+          <li class="nav-item d-none d-xl-block">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle bg-primary border-none" type="button"
+                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-globe text-secondary me-2"></i>
+                English
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Filipino</a></li>
+                <li><a class="dropdown-item" href="#">Korean</a></li>
+                <li><a class="dropdown-item" href="#">Japanese</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <!-- <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+      </div>
+    </div>
+  </nav>
+
+  <!--  hearder -->
+  <div class="container-fluid bg-secondary">
+    <div class="bg-secondary d-flex justify-content-between align-items-center">
+      <div class="d-flex justify-content-center align-items-center gap-2">
+        <img src="/images/amanda.png" alt="Banner" class="img-fluid border-circle my-2 " />
+        <p class="reset poppins-semibold">Amanda Jones</p>
+      </div>
+      <div class="d-flex justify-content-center align-items-center gap-3">
+        <i class="fa fa-phone text-xl text-primary"></i>
+        <i class="fa fa-message text-xl text-primary"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- hero -->
+  <div class="container-fluid reset">
+    <div class="position-relative landing">
+      <video src="/images/hero.mp4" autoplay loop class="landing-video">
+      </video>
+      <div class=" row  d-flex justify-content-center align-items-center landing-content">
+        <div class="col-12 d-flex flex-column justify-content-center align-items-center gap-5">
+          <p class="text-center text-white text-4xl poppins-semibold">
+            Tr<span class="border-bottom border-3 border-secondary">oo</span>Life is dedicated to enhancing the quality
+            and longevity of lives
+          </p>
+          <a href="#"
+            class="btn d-flex gap-2 px-4 py-2 justify-content-center align-items-center bg-white rounded-pill">
+            <p class="reset poppins-semibold text-primary">Find out why</p>
+            <i class="fa fa-angle-right px-2 py-1 bg-primary text-white rounded-circle"></i>
+          </a>
+        </div>
+      </div>
+      <div class="sound-position">
+        <p class="poppins-medium text-white text-end me-4 mt-5">SOUND OFF <i class="fa fa-volume-high ms-2"></i></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- our mission -->
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-center align-items-center gap-5 px-3 py-5">
+      <div class="col-12">
+        <h2 class="text-center poppins-semibold mb-5">O<span class="border-primary border-3 border-bottom"">ur Misio</span>n</h2>
+        <p class=" manrope-regular text-center">
+            Our TrooLife mission is to empower Members to make a true difference in their own personal health,
+            wellness and longevity. For them to enhance their own quality of life, and then to inspire a better quality
+            of
+            life for their family, friends and associates.
+            </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROUNDED IMAGES SECTION -->
+  <!-- things you consistently do -->
+  <div class="container-fluid">
+    <div class="row bg-primary py-5 d-flex align-items-center justify-content-center ">
+      <div class="col-md-6 order-md-2 mb-3 reset ps-5">
+        <div class="banner-wrapper">
+          <div class="banner-right banner-1"></div>
+
+        </div>
+      </div>
+      <div class="col-md-6 order-md-1 text-white text-start p-md-5">
+        <div class="ps-md-5">
+          <div class="ps-md-5">
+            <div class="ps-md-5">
+              <p class="text-xl poppins-semibold">
+                <span class="border-bottom border-1 border-secondary">The things you consistently do</span>
+              </p>
+              <p class="manrope-regular ">
+                to enhance your mind, your body, your relationships and your finances – will enhance your quality of
+                life
+                -
+                and the quality of your extended life.
+                <br><br><br>
+                Also be aware that the things that you do not bother to do for your mind, body, relationships and
+                finances
+                –
+                will reduce your quality of life.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- health experts say -->
+  <div class="container-fluid">
+    <div class="row bg-white py-5 d-flex align-items-center justify-content-center">
+      <div class="col-md-6  mb-3 reset pe-5">
+        <div class="banner-wrapper">
+          <div class="banner-left banner-2"></div>
+        </div>
+      </div>
+      <div class="col-md-6 text-black text-start px-md-5">
+        <div class="pe-md-5">
+          <div class="pe-md-5">
+            <div class="pe-md-5">
+              <p class="text-xl poppins-semibold">
+                <span class="border-bottom border-1 border-secondary">Health experts say</span>
+              </p>
+              <p class="manrope-regular ">
+                we should have five servings or fresh fruits and vegetables every day, however this is not practical or
+                possible for most active adults. This is why these same experts recommend supplementing your diet with
+                high-quality vitamins, minerals, antioxidants and amino acids to help provide optimal health, vitality
+                and mental clarity.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- through our lifeline program-->
+  <div class="container-fluid">
+    <div class="row bg-secondary py-5 d-flex align-items-center justify-content-center">
+      <div class="col-md-6 order-md-2 mb-3 reset ps-5">
+        <div class="banner-wrapper">
+          <div class="banner-right banner-3"></div>
+
+        </div>
+      </div>
+      <div class="col-md-6 order-md-1 text-black text-start p-md-5">
+        <div class="ps-md-5">
+          <div class="ps-md-5">
+            <div class="ps-md-5">
+              <p class="text-xl poppins-semibold">
+                <span class="border-bottom border-1 border-primary">Through our LifeLine program</span>
+              </p>
+              <p class="manrope-regular ">
+                TrooLife will act as your personal wellness coach, encouraging you to eat well, to maintain a healthy
+                activity level and to help you de-stress from your work and family pressures. LifeLine will also advise
+                you on how to optimize your important personal relationships with your family, friends and associates,
+                to enhance your own life, and theirs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- trooolife is also commited-->
+  <div class="container-fluid">
+    <div class="row bg-white py-5 d-flex align-items-center justify-content-center">
+      <div class="col-md-6  mb-3 pe-5 reset">
+        <div class="banner-wrapper">
+          <div class="banner-left banner-4"></div>
+        </div>
+      </div>
+      <div class="col-md-6 text-black text-start px-md-5">
+        <div class="pe-md-5">
+          <div class="pe-md-5">
+            <div class="pe-md-5">
+              <p class="text-xl poppins-semibold">
+                <span class="border-bottom border-1 border-secondary">TrooLife is also commited</span>
+              </p>
+              <p class="manrope-regular ">
+                to providing you excellent product quality and value, with the means to receive your nutritional
+                supplements and wellness coaching for free, from a few simple referrals. Please take a few minutes to
+                find out how.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="arrow-buttons">
+        <a href="#"
+          class="btn d-flex gap-2 px-4 py-2 justify-content-center align-items-center bg-primary rounded-pill">
+          <p class="reset poppins-semibold text-white">Get Started</p>
+          <i class="fa fa-angle-right px-2 py-1 bg-primary text-white rounded-circle"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- CARD SECTION -->
+  <!-- realize your true life potential -->
+  <div class="container-fluid">
+    <div class="row bg-primary px-3 py-5 d-flex align-items-center justify-content-center gap-5">
+      <div class="col-12 text-center poppins-semibold text-2xl text-white mb-3">Realize Your <span
+          class="border-secondary border-2 border-bottom">True</span> Life Potential</div>
+      <div class="col-md-3">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center p-5 gap-2 border-1 border-white border card bg-primary px-5">
+          <img src="/images/card-1.png" alt="Banner" class="img-fluid" />
+          <div>
+            <h4 class="poppins-semibold text-center text-white my-4">Lifeline Wellness Coaching</>
+          </div>
+          <div>
+            <div class="arrow-buttons">
+              <a href="#"
+                class="btn d-flex gap-2 px-4 py-2 justify-content-center align-items-center bg-white rounded-pill">
+                <p class="reset poppins-semibold text-primary">Learn More</p>
+                <i class="fa fa-angle-right px-2 py-1 bg-primary text-white rounded-circle"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center p-5 gap-2 border-1 border-white border card bg-primary px-5">
+          <img src="/images/card-2.png" alt="Banner" class="img-fluid" />
+          <div>
+            <h4 class="poppins-semibold text-center text-white my-4">Nutritional Health</h4>
+          </div>
+          <div>
+            <div class="arrow-buttons">
+              <a href="#"
+                class="btn d-flex gap-2 px-4 py-2 justify-content-center align-items-center bg-white rounded-pill">
+                <p class="reset poppins-semibold text-primary">Learn More</p>
+                <i class="fa fa-angle-right px-2 py-1 bg-primary text-white rounded-circle"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center p-5 gap-2 border-1 border-white border card bg-primary px-5">
+          <img src="/images/card-3.png" alt="Banner" class="img-fluid" />
+          <div>
+            <h4 class="poppins-semibold text-center text-white my-4">Referral Benefits</>
+          </div>
+          <div>
+            <div class="arrow-buttons">
+              <a href="#"
+                class="btn d-flex gap-2 px-4 py-2 justify-content-center align-items-center bg-white rounded-pill">
+                <p class="reset poppins-semibold text-primary">Learn More</p>
+                <i class="fa fa-angle-right px-2 py-1 bg-primary text-white rounded-circle"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- troolife -->
+  <div class="container-fluid px-5 pt-5 pb-md-1 pb-5">
+    <dv class="">
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="d-flex justify-content-center mb-5">
+            <img src="/images/logo-2.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="d-flex flex-column gap-2">
+                <a href="" class="footer-anchor manrope-bold">Mission</a>
+                <a href="" class="footer-anchor manrope-bold">Lifeline</a>
+                <a href="" class="footer-anchor manrope-bold">Nutrition</a>
+                <a href="" class="footer-anchor manrope-bold">Free by Referral</a>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="d-flex flex-column gap-2">
+                <a href="" class="footer-anchor manrope-bold">Public Relation</a>
+                <a href="" class="footer-anchor manrope-bold">Comapany</a>
+                <a href="" class="footer-anchor manrope-bold">Management</a>
+                <a href="" class="footer-anchor manrope-bold">Contact Us</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="d-flex flex-column gap-2">
+                <a href="" class="footer-anchor manrope-bold mb-2">Let's Connect</a>
+                <span>
+                  <i class="fa fa-sun"></i>
+                  Weibo
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-2 order-md-2 mb-2">
+          <p class="text-center reset manrope-bold text-md-start">Privacy Policy</p>
+        </div>
+        <div class="col-md-2 order-md-3 mb-2">
+          <p class="text-center reset manrope-bold text-md-start">Terms of Service</p>
+        </div>
+        <div class="col-md-6 order-md-1">
+          <p class="text-center reset text-primary manrope-bold">&#169; Toolife LCC Irvine, California, USA</p>
+        </div>
+      </div>
+  </div>
+  </div>
+</body>
+
+</html>

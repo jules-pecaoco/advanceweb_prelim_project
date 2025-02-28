@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+:root {
+  /* colors */
+  --primary: #007377;
+  --secondary: #f6dba0;
+  --background: #ffffff;
+}
+
+.reset {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-black-900 {
+  color: #000;
+}
+
+.text-white-900 {
+  color: #fff;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary) !important;
+}
+
+.bg-background {
+  background-color: var(--background) !important;
+}
+
+.bg-none {
+  background-color: none !important;
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.text-secondary {
+  color: var(--secondary) !important;
+}
+
+.text-xs {
+  font-size: 0.75rem !important;
+}
+
+.text-sm {
+  font-size: 0.875rem !important;
+}
+
+.text-base {
+  font-size: 1rem !important;
+}
+
+.text-lg {
+  font-size: 1.125rem !important;
+}
+
+.text-xl {
+  font-size: 1.25rem !important;
+}
+
+.text-2xl {
+  font-size: 1.5rem !important;
+}
+
+.text-3xl {
+  font-size: 1.875rem !important;
+}
+
+.text-4xl {
+  font-size: 2.25rem !important;
+}
+
+.text-5xl {
+  font-size: 3rem !important;
+}
+
+.border-none {
+  border: none !important;
+}
+
+.border-primary {
+  border-color: var(--primary) !important;
+}
+
+.border-secondary {
+  border-color: var(--secondary) !important;
+}
+.border-circle {
+  border-radius: 50% !important;
+}
+
+.w-full {
+  width: 100% !important;
+}
+
+.h-full {
+  height: 100% !important;
+}
+
+/* fonts */
+/* poppins */
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* manrope */
+.manrope-light {
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.manrope-regular {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.manrope-medium {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.manrope-semibold {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.manrope-bold {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
